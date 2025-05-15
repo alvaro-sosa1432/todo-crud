@@ -16,7 +16,7 @@ export const TodoList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="max-w-screen mx-auto p-4 ">
       {todos?.map((todo) => {
         return (
           <TodoItem

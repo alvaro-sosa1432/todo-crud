@@ -3,7 +3,7 @@ import { TodoList } from "./components/TodoList";
 
 function App() {
   return (
-    <div className="mx-auto max-w-sm ">
+    <div className="">
       <h1 className="my-10 text-4xl font-semibold text-center">Todo App</h1>
       <TodoList />
     </div>
